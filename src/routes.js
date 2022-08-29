@@ -1,6 +1,7 @@
 import { Navigate, useRoutes } from "react-router-dom";
-import CustomerMenu from './pages/CustomerMenu';
 import Home from './pages/Home';
+import CustomerMenu from './pages/CustomerMenu';
+import NotFound from "./pages/NotFound";
 
 const Routes = () => {
   return useRoutes([
@@ -14,7 +15,8 @@ const Routes = () => {
     },
     {
       path: '*',
-      element: <Navigate to={'/'} replace />,
+      // element: <Navigate to={'/'} replace />,
+      element: <NotFound />
     },
   ]);
 };

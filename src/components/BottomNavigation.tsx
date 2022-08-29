@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 import BottomNavigation from '@mui/material/BottomNavigation';
 import BottomNavigationAction from '@mui/material/BottomNavigationAction';
 import FolderIcon from '@mui/icons-material/Folder';
