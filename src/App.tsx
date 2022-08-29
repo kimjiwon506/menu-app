@@ -6,6 +6,9 @@ import Routes from "./routes";
 import Header from './components/Header';
 import Footer from './components/Footer';
 import BottomNavigation from './components/BottomNavigation';
+import axios from 'axios';
+
+axios.defaults.baseURL = "";
 
 function App() {
   return (
